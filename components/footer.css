@@ -1,0 +1,113 @@
+footer {
+  background: #12141d;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 0;
+}
+.container-footer .links {
+  display: flex;
+  gap: 2rem;
+}
+.container-footer .links a {
+  /* font-family: Satoshi; */
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  color: #fff;
+}
+.container-footer .link {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 2rem;
+}
+.container-footer .link a {
+  /* font-family: Satoshi; */
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container-footer .icon {
+  padding: 0.6em;
+  width: 2.43819rem;
+  height: 2.56013rem;
+  background: #fff;
+  border-radius: 2em;
+}
+footer p {
+  /* font-family: Satoshi; */
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  .container-footer .links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .container-footer .link {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 834px) {
+  .container-footer .links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .container-footer .link {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 2rem;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-footer .links {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+  }
+  .container-footer .link {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+  }
+  .container-footer .lin {
+    display: flex;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container-footer {
+    padding: 2rem 0;
+  }
+  .container-footer .links {
+    padding: 2rem;
+  }
+  .container-footer .link {
+    padding: 2rem;
+  }
+}

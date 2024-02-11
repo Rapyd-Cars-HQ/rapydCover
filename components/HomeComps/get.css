@@ -1,0 +1,98 @@
+.getI img {
+  width: 100%;
+  height: 100%;
+}
+.gets {
+  background: #12141d;
+  padding: 5rem 0;
+}
+.gets h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 5.0625rem;
+  letter-spacing: -2px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.getW {
+  display: grid;
+  grid-template-columns: 51% 44%;
+  gap: 4rem;
+}
+.getW p {
+  /* font-family: Satoshi; */
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  letter-spacing: -0.02em;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: #fff;
+  opacity: 0.8;
+}
+.getImg {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+@media screen and (max-width: 1114px) {
+  .getW {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .getImg {
+    padding-bottom: 1rem;
+  }
+  .gets {
+    padding: 3rem 0;
+  }
+}
+@media screen and (max-width: 834px) {
+  .getW {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .getI img {
+    width: 24.55rem;
+    height: 13.8125rem;
+  }
+  .getI {
+    display: flex;
+    justify-content: center;
+  }
+  .gets h1 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    letter-spacing: -1px;
+  }
+  .gets p {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: -0.02em;
+  }
+  .getImg img {
+    width: 11.45875rem;
+    height: 3.22125rem;
+  }
+  .getImg {
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .getImg img {
+    width: 10.02125rem;
+    height: 3.22125rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .getImg img {
+    width: 8.77125rem;
+    height: 3.22125rem;
+  }
+}

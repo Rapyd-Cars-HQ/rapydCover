@@ -1,0 +1,72 @@
+.dd {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  width: 26%;
+  margin: 0 auto;
+  background: #fff;
+}
+.bG {
+  background: #f8f9fd;
+}
+.bgS {
+  background: #fff;
+}
+.bG h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.0625rem;
+  letter-spacing: -3px;
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+.bG h2 {
+  /* font-family: Satoshi; */
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  letter-spacing: 0px;
+  text-align: center;
+  opacity: 0.7;
+  padding-bottom: 2rem;
+}
+@media screen and (max-width: 1114px) {
+  .dd {
+    width: 30%;
+  }
+  .bG h3 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dd {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 834px) {
+  .dd {
+    width: 44%;
+  }
+  .bG h3 {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dd {
+    width: 80%;
+  }
+  .bG h3 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    letter-spacing: -2px;
+    padding-top: 4rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .dd {
+    width: 90%;
+  }
+}

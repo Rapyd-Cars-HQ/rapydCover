@@ -1,0 +1,356 @@
+.mm {
+  background: #f8f9fd;
+}
+.ms {
+  background: #fff;
+}
+.container-month {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+.mm .one {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+.mm .two {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+.mm .three {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+.mm .one h6 {
+  /* font-family: Satoshi; */
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.005em;
+}
+.mm .ageS {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 1rem 1.5rem;
+}
+.mm .aged {
+  border-bottom: 1px solid #e5e7eb;
+}
+.mm .ageR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mm .chevron {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 1.5rem;
+  background: #fff;
+}
+
+.mm .chevR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mm h5 {
+  /* font-family: Satoshi; */
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.005em;
+  width: 90%;
+}
+.mm h5 span {
+  /* font-family: Satoshi; */
+  font-size: 10.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.005em;
+}
+.mm .amounts {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  border-bottom: 1px solid #e5e7eb;
+}
+.mm .amountR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem 1.5rem;
+}
+.mm .am {
+  padding: 0;
+}
+.mm .amounts h5 {
+  /* font-family: Satoshi; */
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.005em;
+}
+.mm .amountL {
+  background: #fff;
+  padding: 1rem 1.5rem;
+}
+.mm .prices {
+  display: grid;
+  grid-template-columns: 57% 43%;
+}
+.mm .priceR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.5rem;
+  background: #f6f6f6;
+}
+.mm .prices h4 {
+  /* font-family: Satoshi; */
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1rem;
+  letter-spacing: 0.005em;
+}
+.mm .priceL {
+  background: #f9fafb;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: right;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-month {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+}
+.mm {
+  background: #f8f9fd;
+}
+.ms {
+  background: #fff;
+}
+.container-month {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+.mm .one {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+.mm .two {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+.mm .three {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+.mm .one h6 {
+  /* font-family: Satoshi; */
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.005em;
+}
+.mm .ageS {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 1rem 1.5rem;
+}
+.mm .aged {
+  border-bottom: 1px solid #e5e7eb;
+}
+.mm .ageR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mm .chevron {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 1.5rem;
+  background: #fff;
+}
+
+.mm .chevR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mm h5 {
+  /* font-family: Satoshi; */
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.005em;
+  width: 90%;
+}
+.mm h5 span {
+  /* font-family: Satoshi; */
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.005em;
+}
+.mm .amounts {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  border-bottom: 1px solid #e5e7eb;
+}
+.mm .amountR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem 1.5rem;
+}
+.mm .am {
+  padding: 0;
+}
+.mm .amounts h5 {
+  /* font-family: Satoshi; */
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.005em;
+}
+.mm .amountL {
+  background: #fff;
+  padding: 1rem 1.5rem;
+}
+.mm .prices {
+  display: grid;
+  grid-template-columns: 57% 43%;
+}
+.mm .priceR {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.5rem;
+  background: #f6f6f6;
+}
+.mm .prices h4 {
+  /* font-family: Satoshi; */
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1rem;
+  letter-spacing: 0.005em;
+}
+.mm .priceL {
+  background: #f9fafb;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: right;
+}
+
+@media screen and (max-width: 834px) {
+  .container-month {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mm .one h6 {
+    font-size: 0.625rem;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: 0.005em;
+  }
+  .mm h5 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.005em;
+    /* width: 70%; */
+  }
+  .mm h5 span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.005em;
+  }
+  .mm .amounts h5 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.005em;
+  }
+  .mm .amounts {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .mm .ageS {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 1rem 0.3rem;
+  }
+  .mm .chevron {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 1rem 0.3rem;
+  }
+  .mm .amountR {
+    padding: 1rem 0.3rem;
+  }
+  .mm .amountL {
+    background: #fff;
+    padding: 1rem 0.3rem;
+  }
+  .mm .prices {
+    grid-template-columns: 35% 65%;
+  }
+  .mm .priceR {
+    padding: 1.5rem 0.3rem;
+    gap: 0.2rem;
+  }
+  .mm .prices h4 {
+    font-size: 0.75rem;
+    font-weight: 900;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+  }
+  .mm .priceL {
+    padding: 1.5rem 0.3rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .mm .amounts {
+    grid-template-columns: 30% 70%;
+  }
+  .mm .ageS {
+    grid-template-columns: 30% 70%;
+  }
+  .mm .chevron {
+    grid-template-columns: 30% 70%;
+  }
+  .mm .prices {
+    grid-template-columns: 30% 70%;
+  }
+  .mm .priceR {
+    gap: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mm .prices {
+    grid-template-columns: 25% 75%;
+  }
+  .mm .priceR {
+    gap: 0.2rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .mm .amounts {
+    grid-template-columns: 28% 72%;
+  }
+  .mm .ageS {
+    grid-template-columns: 28% 72%;
+  }
+  .mm .chevron {
+    grid-template-columns: 28% 72%;
+  }
+  .mm .prices {
+    grid-template-columns: 20% 80%;
+  }
+  .mm .priceR {
+    gap: 0.3rem;
+  }
+}
