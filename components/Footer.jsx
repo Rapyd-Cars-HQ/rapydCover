@@ -25,7 +25,7 @@ const Footer = () => {
                 <Link href="/autocare">Autocare</Link>
                 <Link href="/subscription">Subscription</Link>
                 <Link href="/about">About</Link>
-                <Link href="/contact">Contact</Link>
+                <a href="mailto:info@jupita.co">Contact</a>
               </div>
             </article>
             <article>
